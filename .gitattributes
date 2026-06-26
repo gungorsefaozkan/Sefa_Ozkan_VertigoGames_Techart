@@ -1,7 +1,5 @@
 # Disable auto line ending conversion
 * text=auto 
-
-
 # Unity text files - use LF
 *.cs text eol=lf
 *.js text eol=lf
@@ -25,7 +23,6 @@
 *.asset text eol=lf
 *.prefs text eol=lf
 *.dwlt text eol=lf
-
 # Unity Assets - binary (LFS)
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
@@ -38,7 +35,6 @@
 *.tiff filter=lfs diff=lfs merge=lfs -text
 *.hdr filter=lfs diff=lfs merge=lfs -text
 *.exr filter=lfs diff=lfs merge=lfs -text
-
 # Audio
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.wav filter=lfs diff=lfs merge=lfs -text
@@ -46,7 +42,6 @@
 *.aif filter=lfs diff=lfs merge=lfs -text
 *.aiff filter=lfs diff=lfs merge=lfs -text
 *.flac filter=lfs diff=lfs merge=lfs -text
-
 # 3D Models
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.obj filter=lfs diff=lfs merge=lfs -text
@@ -54,13 +49,11 @@
 *.dae filter=lfs diff=lfs merge=lfs -text
 *.3ds filter=lfs diff=lfs merge=lfs -text
 *.max filter=lfs diff=lfs merge=lfs -text
-
 # Video
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
 *.avi filter=lfs diff=lfs merge=lfs -text
 *.webm filter=lfs diff=lfs merge=lfs -text
-
 # Other binary assets
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.rar filter=lfs diff=lfs merge=lfs -text
@@ -74,3 +67,5 @@
 *.controller filter=lfs diff=lfs merge=lfs -text
 *.shadergraph filter=lfs diff=lfs merge=lfs -text
 *.shadersubgraph filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+ArtifactDB filter=lfs diff=lfs merge=lfs -text
