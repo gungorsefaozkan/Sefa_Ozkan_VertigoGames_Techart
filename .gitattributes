@@ -1,5 +1,5 @@
 # Disable auto line ending conversion
-* text=auto eol=lf
+* text=auto 
 
 
 # Unity text files - use LF
